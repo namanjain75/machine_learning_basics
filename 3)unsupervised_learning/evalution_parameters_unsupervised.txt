@@ -1,0 +1,34 @@
+✅ Correct Evaluation Metrics for Unsupervised Learning
+
+1. Silhouette Coefficient
+Measures how similar a point is to its own cluster vs other clusters.
+➡️ Higher is better.
+
+2. WCSS (Within-Cluster Sum of Squares)
+Used in K-means to measure compactness.
+➡️ Lower is better.
+
+3. Davies–Bouldin Score
+Measures cluster separation and compactness.
+➡️ Lower is better.
+
+4. Calinski–Harabasz Score
+Also called Variance Ratio Criterion.
+➡️ Higher is better.
+Metrics that compare two clustering results (external validation)
+
+5. Mutual Information (MI)
+Measures similarity between two clustering assignments.
+➡️ Higher is better.
+
+6. Adjusted Mutual Information (AMI)
+Adjusted for chance.
+➡️ Higher is better.
+
+7. Rand Index (RI)
+Measures similarity of assignments between two clusterings.
+➡️ Higher is better.
+
+8. Adjusted Rand Index (ARI)
+Corrects Rand Index for chance.
+➡️ Higher is better.
